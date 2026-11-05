@@ -1,4 +1,4 @@
-# chromebook-sound
+# chromebook-sound-fix
 
 Fix for Acer 311 Chromebook Linux Sound Not Working
 
