@@ -1,0 +1,10 @@
+[Unit]
+Description=Fix coreboot Acer Chromebook SOF rt5650 speaker amp route
+After=sound.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/fix-chromebook-sound.sh
+
+[Install]
+WantedBy=default.target
